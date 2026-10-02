@@ -1,0 +1,6 @@
+[project]
+name = "futureos"
+version = "0.1.0"
+description = "Local deterministic simulation kernel with isolated branches"
+requires-python = ">=3.13,<3.14"
+dependencies = []

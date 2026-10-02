@@ -1,0 +1,125 @@
+{
+  "audit_mode": "trace",
+  "execution": "REAL",
+  "final_suite": {
+    "errors": 0,
+    "execution": "REAL",
+    "failures": 0,
+    "seconds": 20.613302699995984,
+    "skips": 0,
+    "successful": true,
+    "tests_run": 243,
+    "verified_at": "2026-10-01T21:42:03.740510-03:00"
+  },
+  "hashes": {
+    "eventTraceHash": "5d9c70a83530f11680caab0557a6d36ead37b1325d25beef9f4fd577180b1cce",
+    "finalStateHash": "d95f43f7bbfc1ff333fe8ac510c3cc1846ff00bc635c400b0b6fda1e5edb53db",
+    "trajectoryHash": "3b97a2ccf325f77a12ae3b430c7bb088dbdb5c49bf21f3fcf41d38f7ed1b21bc"
+  },
+  "initial_attempt": {
+    "baseline_suite": {
+      "errors": 4,
+      "exit_code": 1,
+      "failures": 4,
+      "seconds": 14.978,
+      "tests_run": 160
+    },
+    "environment_blocked": false,
+    "error": "ImportError: population_generator imported validate_population_spec from population_spec",
+    "execution": "REAL",
+    "missing_contract": "create_simulation_from_population_spec was absent",
+    "status": "FAILED_CODE_DEPENDENCY"
+  },
+  "input_spec_preserved": true,
+  "metrics": {
+    "adoption_rate": 0.0,
+    "average_intent": 0.35038789263698844,
+    "average_sentiment": 0.0,
+    "average_trust": 0.5,
+    "event_count": 0,
+    "interaction_count": 21
+  },
+  "population_size": 8,
+  "relationship_count": 16,
+  "repairs": [
+    "M12 import, spec-driven generation and Simulation helper",
+    "M11 minimal typed adapter",
+    "legacy CLI and trajectory return isolation"
+  ],
+  "repeat_hashes_match": true,
+  "same_json_and_seed_same_society": true,
+  "seed": 2026,
+  "spec": {
+    "archetypes": [
+      {
+        "id": "a",
+        "metadata": {},
+        "traits": {
+          "conformity": 0.5,
+          "influence": 0.5,
+          "openness": 0.7,
+          "price_sensitivity": 0.5,
+          "risk_tolerance": 0.5
+        },
+        "weight": 0.5
+      },
+      {
+        "id": "b",
+        "metadata": {},
+        "traits": {
+          "conformity": 0.5,
+          "influence": 0.5,
+          "openness": 0.4,
+          "price_sensitivity": 0.5,
+          "risk_tolerance": 0.5
+        },
+        "weight": 0.5
+      }
+    ],
+    "assumptions": [
+      "População sintética não calibrada; parâmetros são hipóteses."
+    ],
+    "metadata": {},
+    "relationship_policy": {
+      "average_degree": 2,
+      "type": "random_sparse"
+    },
+    "size": 8,
+    "source": "manual",
+    "trait_distributions": {
+      "openness": {
+        "max": 0.9,
+        "min": 0.4,
+        "type": "uniform"
+      },
+      "price_sensitivity": {
+        "max": 1,
+        "mean": 0.7,
+        "min": 0,
+        "spread": 0.1,
+        "type": "bounded_normal"
+      },
+      "risk_tolerance": {
+        "type": "fixed",
+        "value": 0.4
+      }
+    },
+    "warnings": [
+      "SYNTHETIC_POPULATION",
+      "UNCALIBRATED_POPULATION"
+    ]
+  },
+  "stages_executed": [
+    "PopulationSpec",
+    "validate_population_spec",
+    "JSON review roundtrip",
+    "generate_population_with_relationships",
+    "create_simulation_from_population_spec",
+    "5 ticks",
+    "metrics",
+    "repeat equality and hashes"
+  ],
+  "status": "COMPLETE",
+  "ticks_executed": 5,
+  "verified_at": "2026-10-01T21:40:08.430278-03:00"
+}

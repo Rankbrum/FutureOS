@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-10-01T17-49-36-974Z",
+  "created_at": "2026-10-01T17:49:36.975Z",
+  "project_name": "FutureOS",
+  "active_task": "M3 - RNG isolado, trajetorias, replay e divergencia de branches",
+  "summary": "M3 concluida: 164 testes OK; SplitMix64 preservado, streams isolados, trace/deltas/trajectory, hashes/replay/divergencia e perfil 10/30/60 verificados; docs e Memory Core atualizados",
+  "next_action": "Confirmar novo escopo e perfilar CPU/alocacao/copias/validacao/hash/serializacao do trace 30/60, preservando hashes replay e legacy; ler NEXT_STEPS e M3_REPORT",
+  "last_ai": "Codex"
+}

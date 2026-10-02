@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-10-01T23-04-14-795Z",
+  "created_at": "2026-10-01T23:04:14.796Z",
+  "project_name": "FutureOS",
+  "active_task": "M6.1 - validacao executada do worktree persistido",
+  "summary": "M6.1: suite atual, 18 benchmarks, piloto120, cProfile60 e decisao hash-v1 verificados",
+  "next_action": "M7: golden moderno v1 e otimizar copia/validacao historica com medicao controlada",
+  "last_ai": "Codex"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-01",
+  "timezone": "America/Sao_Paulo",
+  "repository": "https://github.com/Rankbrum/FutureOS",
+  "visibility": "PRIVATE",
+  "python": "3.13.15",
+  "command": "py -3.13 -B -X utf8 -m unittest discover -s tests -v",
+  "tests": 243,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 20.570,
+  "exit_code": 0,
+  "credential_pattern_review": "No real credential found in inspected candidate files; fake API keys occur in rejection-test fixtures.",
+  "excluded_local_files": [".obsidian/workspace.json", ".commit_attempted"],
+  "limitations": [
+    "unittest does not collect the function-style scenario and web tests.",
+    "Four functions in test_web_app.py contain only pass.",
+    "Web population validation and experiment endpoints return fixed placeholders.",
+    "Flask is not declared in pyproject.toml; no Flask installation or web smoke was performed.",
+    "This check does not establish completion of the later M16-M18 prototypes."
+  ]
+}

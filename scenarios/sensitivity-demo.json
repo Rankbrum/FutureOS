@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "synthetic-adoption-oat-v1",
+  "variations": [
+    {
+      "target": "population",
+      "parameter": "price_sensitivity",
+      "baseline": 0.5,
+      "values": [0.4, 0.45, 0.5, 0.55, 0.6]
+    },
+    {
+      "target": "event",
+      "event_id": "news-3",
+      "parameter": "reach",
+      "baseline": 0.8,
+      "values": [0.2, 0.4, 0.6, 0.8]
+    },
+    {
+      "target": "branch",
+      "branch_id": "C",
+      "parameter": "incentive",
+      "baseline": 20.0,
+      "values": [0.0, 10.0, 20.0, 30.0]
+    }
+  ]
+}

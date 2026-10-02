@@ -1,0 +1,1 @@
+{"experiment":"demo","observations":[{"type":"branch_dominance","metric":"adoptionRate","evidence":"simulated frequency only","severity":"INFO"}],"stability":{"adoptionRate":{"mean":0.6,"classification":"LOW"}},"warnings":["UNCALIBRATED_MODEL","SYNTHETIC_POPULATION","NO_REAL_WORLD_PROBABILITY"]}

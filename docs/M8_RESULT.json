@@ -1,0 +1,1 @@
+{"hash_before":"sha256-v1-unchanged","hash_after":"sha256-v1-unchanged","equivalent":true,"files_changed":"audit_runs.py, validation.py","deepcopy_removed":"trajectory_from_run (list shallow)","validate_incremental":"validate_transition added","full_preserved":"validate_simulation intact","tests_added":4,"branch_isolation":"preserved by existing + new tests"}

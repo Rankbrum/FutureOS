@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-09-30T23-38-57-391Z",
+  "created_at": "2026-09-30T23:38:57.393Z",
+  "project_name": "FutureOS",
+  "active_task": "M2 - Experimentos multi-seed, comparacao pareada e sensibilidade local",
+  "summary": "M2 concluida: 100 seeds x 3 branches x 30 ticks, 100 testes, repeat, OAT100 e benchmark verificados",
+  "next_action": "M3 proposta: auditoria de trajetorias e RNG por mecanismo conforme docs/NEXT_STEPS.md; aguardar novo escopo do Founder",
+  "last_ai": "Codex"
+}

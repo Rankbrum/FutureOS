@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-09-30T22-42-11-333Z",
+  "created_at": "2026-09-30T22:42:11.335Z",
+  "project_name": "FutureOS",
+  "active_task": "M1 - Kernel local reproduzivel com Branch Reality",
+  "summary": "M1 concluida: kernel local, 61 testes OK, demo 10+20 e branches isolados",
+  "next_action": "M2: protocolo de repeticoes por seeds e sensibilidade local, conforme docs/NEXT_STEPS.md",
+  "last_ai": "Codex"
+}

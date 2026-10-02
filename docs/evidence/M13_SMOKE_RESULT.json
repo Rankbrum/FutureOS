@@ -1,0 +1,107 @@
+{
+  "assumptions": [
+    "Esta população é sintética e não calibrada.",
+    "Traits e pesos são hipóteses para revisão humana.",
+    "A proposta não representa estatísticas da população real."
+  ],
+  "audit_mode": "trace",
+  "description": "Donos de pequenos restaurantes avaliando uma solução de automação.",
+  "execution": "REAL",
+  "hashes": {
+    "eventTraceHash": "dcddd08726ca6a501af1b45f96619394a8b561ab3b4052a1f2ca8db8cd99d9a5",
+    "finalStateHash": "0712b5a5a7d97d4009e607c256368e4edbd8f4ad0eafe9c7e3aa1213169cdffa",
+    "trajectoryHash": "32c3013670584afe4c85180f1ba130cd6db250933baa039a0b92caed6c061e0c"
+  },
+  "input_spec_preserved": true,
+  "metrics": {
+    "adoption_rate": 0.0,
+    "average_intent": 0.3638538198226207,
+    "average_sentiment": 0.0,
+    "average_trust": 0.5,
+    "event_count": 0,
+    "interaction_count": 41
+  },
+  "model": "fake-population-v1",
+  "planner_version": "population-planner-v1",
+  "population_size": 8,
+  "provenance": {
+    "model": "fake-population-v1",
+    "planner_version": "population-planner-v1",
+    "provider": "fake"
+  },
+  "provider": "fake",
+  "relationship_count": 24,
+  "repeat_hashes_match": true,
+  "same_json_and_seed_same_society": true,
+  "seed": 2026,
+  "source_integrity": {
+    "all_unchanged": true,
+    "comparison": "Bytes captured before this mission, not Git history",
+    "files": {
+      "audit.py": {
+        "after": "ac62c1d3a586795812cd85d5d88da7ab1fb80125fbdb216d7833f678c4935442",
+        "before": "ac62c1d3a586795812cd85d5d88da7ab1fb80125fbdb216d7833f678c4935442",
+        "unchanged": true
+      },
+      "branches.py": {
+        "after": "41fce6ca261ed696e18b0dae568541070395d0cf29a8b30c4af893d05fafc622",
+        "before": "41fce6ca261ed696e18b0dae568541070395d0cf29a8b30c4af893d05fafc622",
+        "unchanged": true
+      },
+      "codec.py": {
+        "after": "2477103b08fa8258f066cf37f6b5451076224aa655133671a353361bb887059a",
+        "before": "2477103b08fa8258f066cf37f6b5451076224aa655133671a353361bb887059a",
+        "unchanged": true
+      },
+      "engine.py": {
+        "after": "c6f80141cf10e3080f952db8cdf17be52d8db6d11b5b226a4b6bf7a13f4a52fc",
+        "before": "c6f80141cf10e3080f952db8cdf17be52d8db6d11b5b226a4b6bf7a13f4a52fc",
+        "unchanged": true
+      },
+      "models.py": {
+        "after": "fe16a3ee43ff1998a433e1f7b2cb6e59b9186a437bed6891c8f7d675202c63dc",
+        "before": "fe16a3ee43ff1998a433e1f7b2cb6e59b9186a437bed6891c8f7d675202c63dc",
+        "unchanged": true
+      },
+      "population.py": {
+        "after": "e324bbb22a7ec5dd0d084dfbe6f39c6d7907d44d49a08db515b23a59854f113a",
+        "before": "e324bbb22a7ec5dd0d084dfbe6f39c6d7907d44d49a08db515b23a59854f113a",
+        "unchanged": true
+      },
+      "randomness.py": {
+        "after": "47dc49f3c7a6b39b79086f971161de94b7ff8ad05e99b1db48f1e1068b83f337",
+        "before": "47dc49f3c7a6b39b79086f971161de94b7ff8ad05e99b1db48f1e1068b83f337",
+        "unchanged": true
+      },
+      "snapshots.py": {
+        "after": "26fb9041c5d85121849eda6b89ba65cc3040d074e257ad1698366763f0e5b0b7",
+        "before": "26fb9041c5d85121849eda6b89ba65cc3040d074e257ad1698366763f0e5b0b7",
+        "unchanged": true
+      },
+      "validation.py": {
+        "after": "c19aa85b606cbdb45823d29141b77488a11ac6030f825ed65198f4eed2da92f2",
+        "before": "c19aa85b606cbdb45823d29141b77488a11ac6030f825ed65198f4eed2da92f2",
+        "unchanged": true
+      }
+    }
+  },
+  "stages_executed": [
+    "Human description",
+    "LLMPopulationPlanner with FakeLLMProvider",
+    "PopulationSpec",
+    "validate_population_spec",
+    "JSON review roundtrip",
+    "generate_population_with_relationships",
+    "create_simulation_from_population_spec",
+    "5 ticks",
+    "metrics",
+    "repeat equality and hashes"
+  ],
+  "status": "COMPLETE",
+  "ticks_executed": 5,
+  "verified_at": "2026-10-01T21:41:53.461785-03:00",
+  "warnings": [
+    "SYNTHETIC_POPULATION",
+    "UNCALIBRATED_POPULATION"
+  ]
+}

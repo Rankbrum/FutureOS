@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "synthetic-incentive-acceptance-oat-v1",
+  "variations": [
+    {
+      "target": "branch",
+      "branch_id": "C",
+      "parameter": "incentive",
+      "baseline": 20.0,
+      "values": [20.0, 30.0]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"provider":"fake","model":"stub","max_context":4000,"capabilities":["text_generation","structured_output"]}
