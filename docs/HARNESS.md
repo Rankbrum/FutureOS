@@ -156,3 +156,5 @@ O gerador global acrescenta a frase `Treat this Harness as the source of truth.`
 ## Verificação da integração
 
 A inspeção read-only da instalação e `--help` foram concluídos. A verificação dos arquivos preparados deve cobrir JSON válido, `status`, `context`, leitura dos documentos apontados e criação de um checkpoint. Consultar [CURRENT_STATE.md](CURRENT_STATE.md) para os resultados reais, evitando confundir procedimento recomendado com comando executado.
+Fase 24 CHECKPOINT HARNESS: M20 FutureOS Demo RC validation
+- M20: RC BLOCKED. Motivo: ambiente bloqueou execucao real. Nenhum smoke, endpoint, web, screenshot executado.

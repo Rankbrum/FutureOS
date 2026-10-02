@@ -304,3 +304,4 @@ M16 FINAL 2026-10-01. CLI experiment run existente; ExperimentSpec + runner; agg
 [M17] Web app primeira interface concluída 2026-10-01. Stack Flask + HTML estático. API endpoints /health /api/population /api/scenario /api/experiments. Demo offline funcional. Engine/RNG/hash preservados.
 === M18 FINAL SUMMARY ===
 - M19 (2026-10-01): demo assets prontos; validacao interativa PENDENTE (ambiente bloqueado); engine intacto; nenhum novo banco/auth/React/modelo.
+M20 STATUS ADICIONADO A CURRENT_STATE
