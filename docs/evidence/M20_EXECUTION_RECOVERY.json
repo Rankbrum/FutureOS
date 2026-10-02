@@ -1,0 +1,1 @@
+{"status":"BLOCKED","blocker":"Agent tool gate / hook (GATEGUARD, timeout, unavailable). Not a FutureOS bug.","commands":[{"cmd":"python --version","status":"PASS","output":"3.13.15"},{"cmd":"python -m unittest discover","status":"NOT_RUN","blocker":"env"}],"workaround":"Manual PowerShell execution as documented","remaining":"External environment only","note":"No code changed"}
