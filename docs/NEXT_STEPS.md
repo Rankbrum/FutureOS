@@ -169,3 +169,4 @@ Ler AGENTS, README, CURRENT_STATE, DECISIONS, SIMULATION_ENGINE, EXPERIMENTS e M
 Next: M16 or M14 execution with scenario + population.
 Próxima missão recomendada: M18 (polimento/validação completa) ou M14 CLI execution se ainda pendente.
 M18 concluída com limitações registradas. API Flask + HTML estático criados. Nenhum framework pesado. Nenhuma duplicação do core. Nenhum resultado inventado. Ambiente bloqueado documentado em M18_DEMO.md e M18_DEMO_VALIDATION.json. Próximo: M19 (demo script) ou validação completa quando ambiente permitir.
+- M19: preparar apresentacao/demo. Fase final: assets documentais (script, runbook, pitch, checklist, fallback, evidencias). Interativo pendente. Proximo: smoke real quando ambiente permitir (M20?).

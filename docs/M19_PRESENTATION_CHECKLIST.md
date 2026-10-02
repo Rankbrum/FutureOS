@@ -1,0 +1,18 @@
+# M19 — Presentation Checklist
+- [ ] API up
+- [ ] health ok
+- [ ] frontend abre (apps/web/index.html)
+- [ ] fixture existe
+- [ ] fake provider funciona
+- [ ] pricing scenario carrega
+- [ ] warnings aparecem
+- [ ] seed definida (2026)
+- [ ] output limpo
+- [ ] nenhum processo antigo na porta
+- [ ] demo <4 min
+- [ ] branch difference visível
+- [ ] Scientist legível
+- [ ] fallback disponível (outputs verificadas M12-M16)
+- [ ] pitch memorizável
+- [ ] README aponta para demo (Quick Demo)
+- [ ] limitações claras

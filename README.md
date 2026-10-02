@@ -62,3 +62,5 @@ Começar por [AGENTS](AGENTS.md), [estado](docs/CURRENT_STATE.md), [decisões](d
 Harness é opcional para desenvolvimento; seus checkpoints não são snapshots de simulação nem backup de código. O modelo de adoção é sintético e não calibrado; agentes não representam população real e frequência simulada não é probabilidade real. Resultados testam infraestrutura e exploram comportamento do modelo. Interface web, banco externo, providers reais e frameworks de agentes continuam adiados.
 
 `population plan` não inicia Simulation. Revise o JSON, carregue com `PopulationSpec.from_json` e depois use `create_simulation_from_population_spec(spec, seed)` explicitamente; o [relatório M13](docs/M13_LLM_POPULATION_PLANNER.md) mostra as duas etapas. O fake usa uma fixture genérica, sem inferir características reais da descrição. Um planner real pode variar; mesmo JSON validado + mesma seed mantém geração determinística.
+## Quick Demo
+Ver docs/M19_DEMO_SCRIPT.md. Padrão: restaurantes, pricing 70→100, A/B/C, seed 2026. Fallback: M19_FALLBACK.md. Limitações claras.

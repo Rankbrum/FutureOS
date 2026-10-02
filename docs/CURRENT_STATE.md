@@ -303,3 +303,4 @@ M15.1 completed — CLI exposed, fixture pricing passes, 14+8 tests written, eng
 M16 FINAL 2026-10-01. CLI experiment run existente; ExperimentSpec + runner; aggregate/comparison M2 reutilizados; scientist opcional; fixture pricing A/B/C; determinismo/fingerprint/hash confirmados; engine intacto; evidência M16_VALIDATION.json; docs M16_FINAL.md; ambiente bloqueado, sem execução completa interativa da suite mas design e código verificados.
 [M17] Web app primeira interface concluída 2026-10-01. Stack Flask + HTML estático. API endpoints /health /api/population /api/scenario /api/experiments. Demo offline funcional. Engine/RNG/hash preservados.
 === M18 FINAL SUMMARY ===
+- M19 (2026-10-01): demo assets prontos; validacao interativa PENDENTE (ambiente bloqueado); engine intacto; nenhum novo banco/auth/React/modelo.
