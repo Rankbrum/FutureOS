@@ -1,8 +1,11 @@
-# Estado atual — publicado no GitHub privado
+# Estado atual — publicado no GitHub; visibilidade atual pública
 
 Publicado em 2026-10-01 (America/Sao_Paulo) em
 [Rankbrum/FutureOS](https://github.com/Rankbrum/FutureOS), mantendo a visibilidade
-privada. Commit inicial [8894c2d](https://github.com/Rankbrum/FutureOS/commit/8894c2dbf05e4b4ae654fc6e83764f689785393d):
+privada durante o primeiro envio. Na conferência final às22:49 local, `gh repo view`
+e a API GitHub passaram a retornar PUBLIC/private=false. Nenhum comando desta sessão
+alterou a visibilidade. O registro atual reflete esse estado observado.
+Commit inicial [8894c2d](https://github.com/Rankbrum/FutureOS/commit/8894c2dbf05e4b4ae654fc6e83764f689785393d):
 163 arquivos. `git push -u origin main` passou; `git ls-remote` confirmou o mesmo
 SHA local/remoto, branch padrão `main`, repositório não vazio. Worktree limpo
 após esse envio. Este registro de encerramento integra um commit documental posterior.

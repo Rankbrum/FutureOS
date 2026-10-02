@@ -1,7 +1,7 @@
 # Próxima tarefa recomendada após publicação — verificar os protótipos posteriores
 
 Atualizado em 2026-10-01. Publicação inicial do worktree verificada em
-`Rankbrum/FutureOS` privado; validação atual do núcleo: 243 testes passaram.
+`Rankbrum/FutureOS`, atualmente público; validação atual do núcleo: 243 testes passaram.
 As notas M16–M18 abaixo são históricas e não comprovam uma demo web funcional.
 Esta recomendação não inicia implementação adicional.
 

@@ -20,6 +20,9 @@ omitiria trabalho preexistente. Reescrever protótipos excederia a tarefa de pub
 **Consequências:** Git passa a versionar o código; checkpoint continua sendo
 resumo. A suíte atual valida 243 testes do núcleo, não a aplicação web; endpoints
 fixos e funções `pass` dos protótipos ficam explicitados em README/estado/próximos passos.
+Na última conferência, a API passou a informar PUBLIC/private=false; nenhum comando
+desta sessão alterou visibilidade. Estado/README registram o valor atual; a decisão
+acima preserva o contexto privado observado antes e durante o primeiro envio.
 
 **Aceita — requisito do Founder** identifica instrução explícita. **Adotada nesta fundação** identifica decisão operacional reversível daquela missão. **Proposta** ainda precisa ser validada na implementação. Registros M0 preservam contexto histórico; M1/M2 identificam implementação e evidência nas respectivas entradas.
 

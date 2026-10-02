@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-10-02T01-50-54-304Z",
+  "created_at": "2026-10-02T01:50:54.305Z",
+  "project_name": "FutureOS",
+  "active_task": "Publicacao GitHub - FutureOS",
+  "summary": "FutureOS publicado e sincronizado; API informa visibilidade PUBLIC na conferencia final; 243 testes OK",
+  "next_action": "Verificar contratos M15/M16 e API conforme docs/NEXT_STEPS.md",
+  "last_ai": "Codex"
+}

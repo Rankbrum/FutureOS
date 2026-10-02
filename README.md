@@ -2,7 +2,7 @@
 
 FutureOS é um laboratório de decisões: sociedades sintéticas exploram futuros condicionados às premissas. Os resultados não são previsões garantidas.
 
-Repositório: [Rankbrum/FutureOS](https://github.com/Rankbrum/FutureOS), privado. O núcleo usa somente a biblioteca padrão; `apps/api` e `apps/web` são protótipos posteriores, com endpoints ainda incompletos e Flask não declarado como dependência. Consulte o [estado atual](docs/CURRENT_STATE.md) antes de usar a demo web.
+Repositório: [Rankbrum/FutureOS](https://github.com/Rankbrum/FutureOS), público na última verificação. O núcleo usa somente a biblioteca padrão; `apps/api` e `apps/web` são protótipos posteriores, com endpoints ainda incompletos e Flask não declarado como dependência. Consulte o [estado atual](docs/CURRENT_STATE.md) antes de usar a demo web.
 
 ## Estado
 
