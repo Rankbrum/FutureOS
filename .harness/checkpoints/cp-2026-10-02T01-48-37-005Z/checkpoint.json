@@ -1,0 +1,9 @@
+{
+  "id": "cp-2026-10-02T01-48-37-005Z",
+  "created_at": "2026-10-02T01:48:37.006Z",
+  "project_name": "FutureOS",
+  "active_task": "Publicacao GitHub privada - FutureOS",
+  "summary": "Publicacao privada FutureOS verificada: commit inicial e push main; 243 testes OK; prototipos web incompletos documentados",
+  "next_action": "Verificar contratos M15/M16 e API; substituir placeholders e executar testes reais conforme docs/NEXT_STEPS.md",
+  "last_ai": "Codex"
+}

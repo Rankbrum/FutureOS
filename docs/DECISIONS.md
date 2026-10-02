@@ -4,7 +4,7 @@ Data de abertura: 2026-09-29. Este arquivo é o registro único de decisões té
 
 ## D024 — Publicar o worktree preservando a visibilidade privada
 
-**Data:** 2026-10-01. **Status:** publicação autorizada pelo Founder; envio registrado no estado atual.
+**Data:** 2026-10-01. **Status:** autorizada pelo Founder e executada; commit/envio verificados no estado atual.
 
 **Contexto:** Git local `main` sem commits, remoto existente `Rankbrum/FutureOS`
 vazio e privado, com permissão de administração disponível.

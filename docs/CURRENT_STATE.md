@@ -1,13 +1,15 @@
-# Estado atual — preparação da publicação no GitHub
+# Estado atual — publicado no GitHub privado
 
-Verificado em 2026-10-01 (America/Sao_Paulo): remoto existente
-[Rankbrum/FutureOS](https://github.com/Rankbrum/FutureOS), privado, vazio antes
-da publicação; branch local `main` ainda sem commits nesta verificação.
-O Founder autorizou publicar o worktree atual. Envio pendente neste registro.
+Publicado em 2026-10-01 (America/Sao_Paulo) em
+[Rankbrum/FutureOS](https://github.com/Rankbrum/FutureOS), mantendo a visibilidade
+privada. Commit inicial [8894c2d](https://github.com/Rankbrum/FutureOS/commit/8894c2dbf05e4b4ae654fc6e83764f689785393d):
+163 arquivos. `git push -u origin main` passou; `git ls-remote` confirmou o mesmo
+SHA local/remoto, branch padrão `main`, repositório não vazio. Worktree limpo
+após esse envio. Este registro de encerramento integra um commit documental posterior.
 
 Suíte executada novamente com Python 3.13.15: **243 testes passaram**, 0 falhas,
 erros ou skips, 20,570 s, exit0. [Evidência](evidence/GITHUB_PUBLICATION_VALIDATION.json).
-Fontes preexistentes de M15/M16 e protótipos `apps/api`/`apps/web` serão preservados.
+Fontes preexistentes de M15/M16 e protótipos `apps/api`/`apps/web` foram preservados.
 Esta verificação não certifica os relatos posteriores de conclusão M16–M18:
 `test_web_app.py` contém funções não coletadas por unittest e quatro `pass`;
 endpoints de validação de população e experimentos retornam respostas fixas.
@@ -18,7 +20,14 @@ exclui o layout/histórico pessoal `.obsidian/workspace.json` e o marcador local
 `.commit_attempted`, preservados no disco. Documentação, fontes, testes, fixtures
 e resumos portáteis Harness integram a publicação; resultados/caches continuam ignorados.
 Revisão de padrões de credenciais não encontrou credencial real nos candidatos.
+`git diff --cached --check` passou após corrigir dois espaços em branco preexistentes
+em SKILLS_CATALOG e test_population_planner, sem alteração de comportamento.
 Não houve instalação, alteração de comportamento do produto ou deploy de aplicação.
+
+Harness atualizado para publicação concluída; checkpoint em STATE.json. Memory Core
+registra repositório, verificação atual e pendências dos protótipos. O histórico
+abaixo mantém os estados anteriores, inclusive referências então verdadeiras a
+ausência de commits/remoto; elas não descrevem o estado Git atual.
 
 ## Histórico preservado — M13 COMPLETE; M12.1 VALIDATED
 
